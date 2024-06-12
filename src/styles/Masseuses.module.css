@@ -1,0 +1,49 @@
+.masseuses {
+  position: relative;
+  background-color: var(--bg-main-color);
+}
+
+.waveWrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+
+.masseusesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.first {
+  background-image: url(../images/masseus-1.png);
+}
+
+.second {
+  background-image: url(../images/masseus-2.png);
+}
+
+.third {
+  background-image: url(../images/masseus-3.png);
+}
+
+.bowlWrapper {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  height: 250px;
+}
+
+.flowerWrapper {
+  z-index: 1;
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  width: 550px;
+  height: 550px;
+}

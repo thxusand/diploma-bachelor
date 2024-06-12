@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  height: 50dvh;
+  background-image: url(../images/contacts-bg.png);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+h1 {
+  width: 100%;
+  max-width: 80%;
+  position: absolute;
+  font-size: 7rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 120%;
+  text-align: center;
+}

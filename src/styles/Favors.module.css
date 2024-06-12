@@ -1,0 +1,36 @@
+.favors {
+  position: relative;
+  background-color: var(--bg-accent-color);
+  padding-bottom: 20px;
+}
+
+.waveWrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+
+.favorsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.massage {
+  background-image: linear-gradient(90deg, #00000022, #00000022),
+    url(../images/massage-card.png);
+}
+
+.lifting {
+  background-image: linear-gradient(90deg, #00000022, #00000022),
+    url(../images/rf-card.png);
+}
+
+.lfk {
+  background-image: linear-gradient(90deg, #00000022, #00000022),
+    url(../images/lfk-card.png);
+}

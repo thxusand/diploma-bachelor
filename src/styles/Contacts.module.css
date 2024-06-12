@@ -1,0 +1,38 @@
+.contactsContainer {
+  display: flex;
+  background-color: var(--bg-main-color);
+}
+
+.form {
+  position: relative;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  padding: 50px 0;
+}
+
+.formWrapper {
+  position: sticky;
+  z-index: 10;
+  margin: 25px 100px 0 100px;
+  padding: 25px;
+  background-color: var(--table-main-color);
+  border-radius: 25px;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+}
+
+.iconWrapper svg {
+  color: var(--text-main-color);
+  opacity: 0.5;
+}
+
+.mapWrapper {
+  width: 50%;
+}

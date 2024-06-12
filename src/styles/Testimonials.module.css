@@ -1,0 +1,33 @@
+.testimonials {
+  background-image: url(../images/testimonials-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+}
+
+.quotes {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.slider {
+  margin: 25px auto 75px;
+  width: 90% !important;
+}
+
+.dots li button {
+  padding: 0 !important;
+}
+
+.dots li button:before {
+  font-size: 1rem !important;
+  color: var(--text-main-color-light) !important;
+}
+
+.dots li {
+  margin: 0 10px !important;
+}

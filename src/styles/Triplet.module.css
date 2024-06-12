@@ -1,0 +1,61 @@
+.triplet {
+  z-index: 10;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.triplet div {
+  z-index: 10;
+  min-width: 115px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-color: var(--header-footer-color);
+  background-image: url(../images/leaf-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.triplet div:first-child {
+  background-position: left;
+}
+
+.triplet div:last-child {
+  background-position: right;
+}
+
+@media (max-width: 1050px) {
+  .triplet {
+    height: var(--about-container-height);
+  }
+}
+
+@media (max-width: 650px) {
+  .triplet {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .triplet {
+    width: 310px;
+    height: calc(var(--about-container-height) - 120px);
+  }
+  .triplet div {
+    min-width: 85px;
+  }
+}
+
+@media (max-width: 450px) {
+  .triplet {
+    gap: 10px;
+    width: 280px;
+    height: calc(var(--about-container-height) - 120px);
+  }
+  .triplet div {
+    min-width: 75px;
+  }
+}

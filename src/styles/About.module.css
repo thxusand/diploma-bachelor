@@ -1,0 +1,104 @@
+.about {
+  height: 100dvh;
+  background-color: var(--bg-main-color);
+  position: relative;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  height: var(--about-container-height);
+  gap: 150px;
+}
+
+.leafWrapper {
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
+.stonesWrapper {
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+@media (max-width: 1250px) {
+  .aboutContainer {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about {
+    height: 100%;
+  }
+
+  .aboutContainer {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    height: calc(var(--about-container-height) * 2 + 100px);
+  }
+}
+
+@media (max-width: 700px) {
+  .leafWrapper {
+    width: 500px;
+    height: 500px;
+  }
+
+  .stonesWrapper {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  .aboutContainer {
+    display: block;
+    height: var(--about-container-height);
+  }
+
+  .leafWrapper {
+    opacity: 0.35;
+  }
+}
+
+@media (max-width: 550px) {
+  .leafWrapper {
+    width: 350px;
+    height: 350px;
+  }
+
+  .stonesWrapper {
+    right: 35px;
+    top: 35px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .aboutContainer {
+    height: calc(var(--about-container-height) * 1.5);
+  }
+}
+
+@media (max-width: 350px) {
+  .leafWrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .stonesWrapper {
+    right: 5px;
+    top: 5px;
+    width: 300px;
+    height: 300px;
+  }
+}

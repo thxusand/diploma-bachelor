@@ -1,0 +1,88 @@
+/* Normalize CSS */
+
+/* 1. Resetting the Box Model */
+* {
+  box-sizing: border-box !important;
+}
+
+html {
+  color: var(--text-main-color-light);
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* 2. Setting up Default Margins and Padding to Zero */
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  width: 100%;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+}
+
+/* 4. Correcting Font Smoothing for Webkit */
+/* Optional: Use only if you experience font rendering issues */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 5. Setting up Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* 6. Removing List Styles (Bullet Points) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 7. Standardizing HTML5 Elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* 8. Removing Outline on Focused Elements */
+/* Optional: Some users prefer to keep the outline */
+:focus {
+  outline: 0;
+}

@@ -1,0 +1,42 @@
+.planeWrapper {
+  height: 200%;
+}
+
+input,
+textarea {
+  border-radius: 0.5rem;
+  border: 3px solid transparent;
+  color: var(--text-main-color-light);
+  padding: 10px;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--table-fieldset-color);
+  opacity: 0.5;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--text-hover-color);
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.errorMessageWrapper {
+  margin-bottom: 0.5rem;
+}
+
+.errorMessage {
+  color: var(--error-message);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.mg {
+  margin-bottom: 0.5rem;
+}

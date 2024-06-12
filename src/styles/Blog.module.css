@@ -1,0 +1,16 @@
+.blog {
+  height: 150dvh;
+  background-color: var(--bg-main-color);
+}
+
+.facebookWrapper {
+  height: 70%;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+.subtitleWrapper {
+  margin: 50px 0;
+}

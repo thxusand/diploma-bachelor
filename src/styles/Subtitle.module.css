@@ -1,0 +1,6 @@
+.subtitle {
+  font-size: 2.5rem;
+  color: var(--text-main-color-dark);
+  text-align: center;
+  line-height: 3rem;
+}

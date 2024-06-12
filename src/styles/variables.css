@@ -1,0 +1,75 @@
+:root {
+  --text-main-color-light: #fff;
+  --text-main-color-dark: #52565a;
+  --text-hover-color: #c4ff89;
+  --bg-main-color: #d7dac5;
+  --bg-accent-color: #cdd4b8;
+  --button-color: #94b276;
+  --header-footer-color: #334b1c;
+  --table-main-color: #404040aa;
+  --table-fieldset-color: #000000;
+  --error-message: #ff8989;
+  --dropdown-menu-color: #334b1ce2;
+
+  --container-width: 1200px;
+  --nav-height: 100px;
+  --about-container-height: 450px;
+  --about-contacts-card-width: 350px;
+  --about-container-gap: 60px;
+  --masseus-card-height: 500px;
+  --masseus-card-width: 350px;
+
+  --font-size: 16px;
+  --font-family: 'Raleway', sans-serif;
+  --font-weight: 400;
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --container-width: 1000px;
+    --font-size: 14px;
+  }
+}
+
+@media (max-width: 1050px) {
+  :root {
+    --container-width: 800px;
+  }
+}
+
+@media (max-width: 850px) {
+  :root {
+    --container-width: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  :root {
+    --container-width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    --container-width: 400px;
+    --about-container-gap: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    --container-width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --container-width: 320px;
+  }
+}
+
+@media (max-width: 350px) {
+  :root {
+    --container-width: 300px;
+  }
+}

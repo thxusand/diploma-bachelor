@@ -1,0 +1,13 @@
+.fields {
+  position: inherit;
+}
+
+.firstItem {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.secondItem:hover {
+  color: var(--text-hover-color);
+  text-shadow: var(--button-color) 1px 0 10px;
+}

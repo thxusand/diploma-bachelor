@@ -1,17 +1,40 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDom from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './styles/index.css';
+
+import App from './app/App.jsx';
+import Contacts from './components/contacts/Contacts.jsx';
+import Home from './components/home/Home.jsx';
+import Blog from './components/blog/Blog.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <div>Error 404. Page not found.</div>,
+  },
+  {
+    path: '/home',
+    element: <Home />,
+    errorElement: <div>Error 404. Page not found.</div>,
+  },
+  {
+    path: '/contacts',
+    element: <Contacts />,
+    errorElement: <div>Error 404. Page not found.</div>,
+  },
+  {
+    path: '/blog',
+    element: <Blog />,
+    errorElement: <div>Error 404. Page not found.</div>,
+  },
+]);
+
+const root = ReactDom.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RouterProvider router={router} basename="/wellness-oasis/" />
+  </React.StrictMode>,
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

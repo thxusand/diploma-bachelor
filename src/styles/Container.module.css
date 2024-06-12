@@ -1,0 +1,7 @@
+.container {
+  max-width: var(--container-width);
+  height: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  z-index: 10;
+}

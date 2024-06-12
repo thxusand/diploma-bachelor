@@ -1,0 +1,31 @@
+.topButton {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  width: 75px;
+  height: 75px;
+  right: 50px;
+  bottom: 50px;
+  background-color: var(--header-footer-color);
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #00000022;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+}
+
+.iconWrapper {
+  margin: 0 auto;
+  color: var(--text-main-color-light);
+  width: 75%;
+  height: 75%;
+}
+
+.topButton.buttonVisible {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.topButton.buttonHidden {
+  visibility: hidden;
+  opacity: 0;
+}

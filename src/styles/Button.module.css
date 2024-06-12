@@ -1,0 +1,34 @@
+.buttonWrapper {
+  z-index: 10;
+  margin: 0 auto;
+  width: max-content;
+  min-width: 250px;
+}
+
+.button {
+  background-color: var(--button-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  height: 75px;
+  box-shadow: 5px 5px 10px #00000022;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 70%;
+}
+
+button {
+  border: none;
+  width: 200px;
+}
+
+button:hover {
+  cursor: pointer;
+}
