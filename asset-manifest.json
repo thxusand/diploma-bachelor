@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diploma-bachelor/static/css/main.3744fd68.css",
-    "main.js": "/diploma-bachelor/static/js/main.528eb72c.js",
+    "main.js": "/diploma-bachelor/static/js/main.b9b0f2f0.js",
     "static/media/blog-bg.jpg": "/diploma-bachelor/static/media/blog-bg.f86e68081010487dc19f.jpg",
     "static/media/contacts-bg.png": "/diploma-bachelor/static/media/contacts-bg.d5daea8de484b817b2ea.png",
     "static/media/testimonials-bg.jpg": "/diploma-bachelor/static/media/testimonials-bg.8c00e3651bd4ab6a9fbb.jpg",
@@ -20,10 +20,10 @@
     "static/media/slick.woff": "/diploma-bachelor/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/diploma-bachelor/index.html",
     "main.3744fd68.css.map": "/diploma-bachelor/static/css/main.3744fd68.css.map",
-    "main.528eb72c.js.map": "/diploma-bachelor/static/js/main.528eb72c.js.map"
+    "main.b9b0f2f0.js.map": "/diploma-bachelor/static/js/main.b9b0f2f0.js.map"
   },
   "entrypoints": [
     "static/css/main.3744fd68.css",
-    "static/js/main.528eb72c.js"
+    "static/js/main.b9b0f2f0.js"
   ]
 }
