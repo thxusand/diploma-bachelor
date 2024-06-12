@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/diploma-bachelor/static/css/main.3744fd68.css",
+    "main.js": "/diploma-bachelor/static/js/main.528eb72c.js",
+    "static/media/blog-bg.jpg": "/diploma-bachelor/static/media/blog-bg.f86e68081010487dc19f.jpg",
+    "static/media/contacts-bg.png": "/diploma-bachelor/static/media/contacts-bg.d5daea8de484b817b2ea.png",
+    "static/media/testimonials-bg.jpg": "/diploma-bachelor/static/media/testimonials-bg.8c00e3651bd4ab6a9fbb.jpg",
+    "static/media/leaf-img.png": "/diploma-bachelor/static/media/leaf-img.7cba3096e2476a714632.png",
+    "static/media/header-bg.jpg": "/diploma-bachelor/static/media/header-bg.83f7da585e9b09aa9b7e.jpg",
+    "static/media/masseus-2.png": "/diploma-bachelor/static/media/masseus-2.b444dc930ca031d923e5.png",
+    "static/media/rf-card.png": "/diploma-bachelor/static/media/rf-card.40058492a4c872acc904.png",
+    "static/media/masseus-1.png": "/diploma-bachelor/static/media/masseus-1.849c1cf6daea4844acc4.png",
+    "static/media/massage-card.png": "/diploma-bachelor/static/media/massage-card.ade77d0194607fa94cf3.png",
+    "static/media/lfk-card.png": "/diploma-bachelor/static/media/lfk-card.575da9f931d78a7bf69c.png",
+    "static/media/masseus-3.png": "/diploma-bachelor/static/media/masseus-3.37b8b2e88093bc93d9ee.png",
+    "static/media/sprite.svg": "/diploma-bachelor/static/media/sprite.cfb2364e0ecf2555453010e541366339.svg",
+    "static/media/slick.svg": "/diploma-bachelor/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/diploma-bachelor/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/diploma-bachelor/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/diploma-bachelor/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/diploma-bachelor/index.html",
+    "main.3744fd68.css.map": "/diploma-bachelor/static/css/main.3744fd68.css.map",
+    "main.528eb72c.js.map": "/diploma-bachelor/static/js/main.528eb72c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3744fd68.css",
+    "static/js/main.528eb72c.js"
+  ]
+}
