@@ -35,6 +35,6 @@ const router = createBrowserRouter([
 const root = ReactDom.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} basename="/wellness-oasis/" />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 );

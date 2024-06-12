@@ -2,7 +2,6 @@
   "homepage": "http://thxusand.github.io/diploma-bachelor",
   "name": "diploma-bachelor",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@reduxjs/toolkit": "^2.2.4",
